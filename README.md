@@ -1,11 +1,6 @@
 # **Quadcopter AI**
 
 Controlling a 2D Quadcopter with Rigidbody Physics using Control Theory and Reinforcement Learning
-
-<p align="center">
-  <img src="media/balloon.gif" alt="Main Game" width="50%"/>
-</p>
-
 The main environment consists of controlling the drone to hit as many balloons within a time limit against AI drones.
 
 The currently implemented algorithms are:
@@ -25,10 +20,6 @@ I also made a devlog about this project here:
 
 I added another game where the drone follows the mouse to move snow around a snowglobe.
 
-<p align="center">
-  <img src="media/snowglobe.gif" alt="Snowglobe" width="50%"/>
-</p>
-
 ## Usage
 
 The games are available to try as a Python package.
@@ -38,15 +29,14 @@ Make sure you have Python installed on your computer. Then, in a terminal, run t
 ### **1. Install the package with pip in your terminal:**
 
 ```bash
-pip install git+https://github.com/AlexandreSajus/Quadcopter-AI.git
+pip install -r requirements.txt
 ```
-
 ### **2. Run the game:**
 
 **If you want to run the balloon game:**
 
 ```bash
-python -m quadai
+python -m main
 ```
 
 - Control your drone by tapping the arrow keys
@@ -55,7 +45,7 @@ python -m quadai
 **If you want to run the snowglobe game:**
 
 ```bash
-python -m quadai snowglobe
+python -m quadai main snowglobe
 ```
 
 - Control the drone using your mouse
