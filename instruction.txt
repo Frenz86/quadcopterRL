@@ -1,0 +1,2 @@
+python main.py  # Balloon
+python main.py snowglobe  # Snowglobe -->Control the drone using your mouse
